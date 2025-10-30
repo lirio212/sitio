@@ -22,4 +22,4 @@ Route::get('/ubicacion',function () {
     return view('ubicacion');
 });
 
-route::post('/guardarOpinion',[OpinionController::class,'guardarOpinio']);
+route::post('/guardarOpinion',[OpinionController::class,'guardarOpinion']);

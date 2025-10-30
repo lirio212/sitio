@@ -9,6 +9,5 @@
 @stop
 
 @section('contenido')
-<form action="{{url('/actualizarAlumnos')}}/{{ $alumno->id}}" method="POST">
-</form>
+<img src="{{ asset('img/lomita.jpg') }}" alt="";>
 @stop

@@ -12,7 +12,7 @@ class Opinion extends Model
     protected $fillable=[
 'nombre',
 'email',
-'opinion',
+'opinion'
 ];
 }
 

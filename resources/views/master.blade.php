@@ -23,10 +23,11 @@
       </ul>
     </div>
   </div>
+  
 </nav>
 
 <div class="container mt-4">
-    <h1>@yield('titulo')</h1>
+         @yield('titulo')
     <div>
         @yield('contenido')
     </div>
